@@ -1,7 +1,7 @@
 # College Exercises
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/bedatty/college_exercises?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/bedatty/college_exercises?style=for-the-badge)
 
 > This repository contains all the projects that were developed by Lucas Bedatty in his ADS subjects.
 
