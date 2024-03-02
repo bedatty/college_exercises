@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CPython
+*.pyc
+*.pyo
+
+# Jython
+*.class
+
+# Stackless
+*.pyc
+*.pyo
+
+# Distribuição/distância
+/dist/
+/build/
+
+# Eggs
+*.egg-info/
+*.egg
+
+# Ambiente virtual
+.env/
+venv/
+ENV/
+
+# Arquivos de registro e saída
+*.log
+*.pot
+*.pytest_cache/
+
+# Arquivos temporários
+*.bak
+*.swp
+*~
+
+# Arquivos de configuração
+*.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,49 @@
+# Arquivos de compilação
+*.class
+
+# Arquivos de construção do Maven
+target/
+
+# Diretórios específicos do Eclipse
+.classpath
+.project
+.settings/
+
+# Diretórios específicos do IntelliJ IDEA
+.idea/
+
+# Arquivos de configuração do Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.log.*
+
+# Arquivos de saída do BlueJ
+*.bluej
+
+# Arquivos de cache
+*.db
+*.log
+*.sqlite
+*.sqlite3
+*.xml
+
+# Logs de depuração
+debug.log
+
+# Dependências
+lib/
+
+# Arquivos de configuração
+*.properties
+
+# Arquivos de configuração do Gradle
+.gradle/
+
+# Cache do Gradle
+build/
+
