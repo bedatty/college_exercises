@@ -21,3 +21,4 @@ All about the ADS subjects;
 
 * `C / C++`
 * `Python`
+* `Java`
