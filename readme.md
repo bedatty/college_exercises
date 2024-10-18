@@ -10,7 +10,7 @@
 Will be updated when the semesters is donning.
 
 - [x] Semester 1
-- [ ] Semester 2
+- [x] Semester 2
 - [ ] Semester 3
 - [ ] Semester 4
 - [ ] Semester 5
@@ -22,3 +22,9 @@ All about the ADS subjects;
 * `C / C++`
 * `Python`
 * `Java`
+* `sql`
+* `HTML`
+* `Css`
+* `BootStrap`
+* `DER / DMR / UML`
+* `PHP`
