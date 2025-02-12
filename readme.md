@@ -11,7 +11,7 @@ Will be updated when the semesters is donning.
 
 - [x] Semester 1
 - [x] Semester 2
-- [ ] Semester 3
+- [x] Semester 3
 - [ ] Semester 4
 - [ ] Semester 5
 
@@ -28,3 +28,4 @@ All about the ADS subjects;
 * `BootStrap`
 * `DER / DMR / UML`
 * `PHP`
+* `Javascript`
