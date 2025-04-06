@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HamburgueriaZ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#8000FF"
+        android:padding="12dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_hamburgueria"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        style="@style/EstiloTexto"
+        android:text="Faça seu pedido!"
+        android:textColor="#333333"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/cbBacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bacon"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbCheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queijo"/>
+
+    <CheckBox
+        android:id="@+id/cbOnion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onion Rings"/>
+
+    <TextView
+        android:id="@+id/tvQuantityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="8dp"
+            android:background="#EEEEEE" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:background="@drawable/button"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOrderLabel"
+        style="@style/EstiloTexto"
+        android:text="Resumo do pedido"/>
+
+    <TextView
+        android:id="@+id/tvOrderSummary"
+        style="@style/EstiloTexto"
+        android:text="R$ 0"/>
+
+    <Button
+        android:id="@+id/btnSendOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAZER PEDIDO"
+        android:layout_marginTop="16dp"
+        android:background="#8000FF"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
